@@ -14,7 +14,7 @@ do
   do
       for c in "${cids[@]}"
       do
-          wget --spider $g"ipfs/"$c &
+          wget --spider $g"/ipfs/"$c &
       done
   done
 
